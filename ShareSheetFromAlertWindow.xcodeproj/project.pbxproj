@@ -13,6 +13,8 @@
 		DCF7176C1FCCFEAB00F9AFCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCF7176B1FCCFEAB00F9AFCE /* Assets.xcassets */; };
 		DCF7176F1FCCFEAB00F9AFCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF7176D1FCCFEAB00F9AFCE /* LaunchScreen.storyboard */; };
 		DCF717771FCD005C00F9AFCE /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF717761FCD005C00F9AFCE /* ModalViewController.swift */; };
+		DCF717791FCD0D6D00F9AFCE /* BasicStringProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF717781FCD0D6D00F9AFCE /* BasicStringProvider.swift */; };
+		DCF7177B1FCD114600F9AFCE /* Sharable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF7177A1FCD114600F9AFCE /* Sharable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DCF7176E1FCCFEAB00F9AFCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCF717701FCCFEAB00F9AFCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCF717761FCD005C00F9AFCE /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		DCF717781FCD0D6D00F9AFCE /* BasicStringProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicStringProvider.swift; sourceTree = "<group>"; };
+		DCF7177A1FCD114600F9AFCE /* Sharable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sharable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +62,11 @@
 			children = (
 				DCF717641FCCFEAB00F9AFCE /* AppDelegate.swift */,
 				DCF717761FCD005C00F9AFCE /* ModalViewController.swift */,
+				DCF717781FCD0D6D00F9AFCE /* BasicStringProvider.swift */,
 				DCF717661FCCFEAB00F9AFCE /* ViewController.swift */,
-				DCF717681FCCFEAB00F9AFCE /* Main.storyboard */,
+				DCF7177A1FCD114600F9AFCE /* Sharable.swift */,
 				DCF7176B1FCCFEAB00F9AFCE /* Assets.xcassets */,
+				DCF717681FCCFEAB00F9AFCE /* Main.storyboard */,
 				DCF7176D1FCCFEAB00F9AFCE /* LaunchScreen.storyboard */,
 				DCF717701FCCFEAB00F9AFCE /* Info.plist */,
 			);
@@ -139,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCF717791FCD0D6D00F9AFCE /* BasicStringProvider.swift in Sources */,
 				DCF717671FCCFEAB00F9AFCE /* ViewController.swift in Sources */,
+				DCF7177B1FCD114600F9AFCE /* Sharable.swift in Sources */,
 				DCF717771FCD005C00F9AFCE /* ModalViewController.swift in Sources */,
 				DCF717651FCCFEAB00F9AFCE /* AppDelegate.swift in Sources */,
 			);
